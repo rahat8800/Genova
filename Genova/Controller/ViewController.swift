@@ -26,6 +26,7 @@ class ViewController: UIViewController {
             lblCart.text = "\(carItems.count)"
         }
     }
+   
     var orderPlaced=false {
         didSet {
             carItems = []
