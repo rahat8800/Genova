@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045F751616AF87B273810706 /* Pods_Genova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B9D3051083FD955B960B73 /* Pods_Genova.framework */; };
+		24FD9CAD471D22DC9A70675D /* Pods_Genova_GenovaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9617EFC649DDEE599F93188 /* Pods_Genova_GenovaUITests.framework */; };
+		542218272B9355A7003BDAA4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542218262B9355A7003BDAA4 /* Utils.swift */; };
+		542218292B9355EA003BDAA4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542218282B9355EA003BDAA4 /* Model.swift */; };
+		5430C4262B91002E00161D4F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5430C4252B91002E00161D4F /* DetailViewController.swift */; };
+		5430C4312B91020400161D4F /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5430C42F2B91020400161D4F /* SliderCell.swift */; };
+		5430C4322B91020400161D4F /* SliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5430C4302B91020400161D4F /* SliderCell.xib */; };
+		5430C4342B91076800161D4F /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5430C4332B91076800161D4F /* CartViewController.swift */; };
+		5430C4372B91077A00161D4F /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5430C4352B91077A00161D4F /* CartTableViewCell.swift */; };
+		5430C4382B91077A00161D4F /* CartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5430C4362B91077A00161D4F /* CartTableViewCell.xib */; };
+		54AA62BF2B92FD3500FB3BFB /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AA62BE2B92FD3500FB3BFB /* CheckoutViewController.swift */; };
+		54B6B5962B93182800DDA649 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B6B5952B93182800DDA649 /* SuccessViewController.swift */; };
+		54B77A292B925D9900FAB877 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B77A282B925D9900FAB877 /* AddressViewController.swift */; };
+		54F80A8C2B909D8900AB3027 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F80A8B2B909D8900AB3027 /* AppDelegate.swift */; };
+		54F80A8E2B909D8900AB3027 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F80A8D2B909D8900AB3027 /* SceneDelegate.swift */; };
+		54F80A902B909D8900AB3027 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F80A8F2B909D8900AB3027 /* ViewController.swift */; };
+		54F80A932B909D8900AB3027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F80A912B909D8900AB3027 /* Main.storyboard */; };
+		54F80A952B909D8B00AB3027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F80A942B909D8B00AB3027 /* Assets.xcassets */; };
+		54F80A982B909D8B00AB3027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F80A962B909D8B00AB3027 /* LaunchScreen.storyboard */; };
+		54F80AA32B909D8B00AB3027 /* GenovaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F80AA22B909D8B00AB3027 /* GenovaTests.swift */; };
+		54F80AAD2B909D8B00AB3027 /* GenovaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F80AAC2B909D8B00AB3027 /* GenovaUITests.swift */; };
+		54F80AAF2B909D8B00AB3027 /* GenovaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F80AAE2B909D8B00AB3027 /* GenovaUITestsLaunchTests.swift */; };
+		54F80AC12B909E9800AB3027 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F80ABF2B909E9800AB3027 /* HomeCollectionViewCell.swift */; };
+		54F80AC22B909E9800AB3027 /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F80AC02B909E9800AB3027 /* HomeCollectionViewCell.xib */; };
+		54F80AC62B909FE100AB3027 /* DataModel.json in Resources */ = {isa = PBXBuildFile; fileRef = 54F80AC52B909FE100AB3027 /* DataModel.json */; };
+		8F4B9E401413716C4C957C89 /* Pods_GenovaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1416BCB434BCF3AFBFEB8A0A /* Pods_GenovaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54F80A9F2B909D8B00AB3027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54F80A802B909D8900AB3027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54F80A872B909D8900AB3027;
+			remoteInfo = Genova;
+		};
+		54F80AA92B909D8B00AB3027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54F80A802B909D8900AB3027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54F80A872B909D8900AB3027;
+			remoteInfo = Genova;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B275541A7A0A122FCA515C /* Pods-Genova.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Genova.release.xcconfig"; path = "Target Support Files/Pods-Genova/Pods-Genova.release.xcconfig"; sourceTree = "<group>"; };
+		1416BCB434BCF3AFBFEB8A0A /* Pods_GenovaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenovaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B9D3051083FD955B960B73 /* Pods_Genova.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Genova.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		542218262B9355A7003BDAA4 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		542218282B9355EA003BDAA4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5430C4252B91002E00161D4F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5430C42F2B91020400161D4F /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
+		5430C4302B91020400161D4F /* SliderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderCell.xib; sourceTree = "<group>"; };
+		5430C4332B91076800161D4F /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		5430C4352B91077A00161D4F /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		5430C4362B91077A00161D4F /* CartTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartTableViewCell.xib; sourceTree = "<group>"; };
+		54AA62BE2B92FD3500FB3BFB /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		54B6B5952B93182800DDA649 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		54B77A282B925D9900FAB877 /* AddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
+		54F80A882B909D8900AB3027 /* Genova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Genova.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F80A8B2B909D8900AB3027 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54F80A8D2B909D8900AB3027 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		54F80A8F2B909D8900AB3027 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54F80A922B909D8900AB3027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54F80A942B909D8B00AB3027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54F80A972B909D8B00AB3027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54F80A992B909D8B00AB3027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F80A9E2B909D8B00AB3027 /* GenovaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenovaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F80AA22B909D8B00AB3027 /* GenovaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenovaTests.swift; sourceTree = "<group>"; };
+		54F80AA82B909D8B00AB3027 /* GenovaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenovaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F80AAC2B909D8B00AB3027 /* GenovaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenovaUITests.swift; sourceTree = "<group>"; };
+		54F80AAE2B909D8B00AB3027 /* GenovaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenovaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		54F80ABF2B909E9800AB3027 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		54F80AC02B909E9800AB3027 /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		54F80AC52B909FE100AB3027 /* DataModel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DataModel.json; sourceTree = "<group>"; };
+		715043CD157E3BC981E603E2 /* Pods-GenovaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenovaTests.debug.xcconfig"; path = "Target Support Files/Pods-GenovaTests/Pods-GenovaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A551F1C5D8391A790347AC4 /* Pods-Genova.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Genova.debug.xcconfig"; path = "Target Support Files/Pods-Genova/Pods-Genova.debug.xcconfig"; sourceTree = "<group>"; };
+		8E688718E5052A900C83CF19 /* Pods-Genova-GenovaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Genova-GenovaUITests.release.xcconfig"; path = "Target Support Files/Pods-Genova-GenovaUITests/Pods-Genova-GenovaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D436785DFE124E1FAD9D859A /* Pods-Genova-GenovaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Genova-GenovaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Genova-GenovaUITests/Pods-Genova-GenovaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9617EFC649DDEE599F93188 /* Pods_Genova_GenovaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Genova_GenovaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4C2C3FA859D1F1010370DD /* Pods-GenovaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenovaTests.release.xcconfig"; path = "Target Support Files/Pods-GenovaTests/Pods-GenovaTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54F80A852B909D8900AB3027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045F751616AF87B273810706 /* Pods_Genova.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F80A9B2B909D8B00AB3027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4B9E401413716C4C957C89 /* Pods_GenovaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F80AA52B909D8B00AB3027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FD9CAD471D22DC9A70675D /* Pods_Genova_GenovaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		542218202B9354EC003BDAA4 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				54F80A8B2B909D8900AB3027 /* AppDelegate.swift */,
+				54F80A8D2B909D8900AB3027 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		542218212B9354FE003BDAA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				542218232B935538003BDAA4 /* TableViewCells */,
+				54F80A912B909D8900AB3027 /* Main.storyboard */,
+				54F80A962B909D8B00AB3027 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		542218222B93551D003BDAA4 /* JSON_Data */ = {
+			isa = PBXGroup;
+			children = (
+				54F80AC52B909FE100AB3027 /* DataModel.json */,
+				542218282B9355EA003BDAA4 /* Model.swift */,
+			);
+			path = JSON_Data;
+			sourceTree = "<group>";
+		};
+		542218232B935538003BDAA4 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				54F80ABF2B909E9800AB3027 /* HomeCollectionViewCell.swift */,
+				54F80AC02B909E9800AB3027 /* HomeCollectionViewCell.xib */,
+				5430C4352B91077A00161D4F /* CartTableViewCell.swift */,
+				5430C4362B91077A00161D4F /* CartTableViewCell.xib */,
+				5430C4302B91020400161D4F /* SliderCell.xib */,
+				5430C42F2B91020400161D4F /* SliderCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		542218242B935579003BDAA4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54F80A8F2B909D8900AB3027 /* ViewController.swift */,
+				5430C4332B91076800161D4F /* CartViewController.swift */,
+				54AA62BE2B92FD3500FB3BFB /* CheckoutViewController.swift */,
+				54B77A282B925D9900FAB877 /* AddressViewController.swift */,
+				5430C4252B91002E00161D4F /* DetailViewController.swift */,
+				54B6B5952B93182800DDA649 /* SuccessViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		542218252B935599003BDAA4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				542218262B9355A7003BDAA4 /* Utils.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		54F80A7F2B909D8900AB3027 = {
+			isa = PBXGroup;
+			children = (
+				54F80A8A2B909D8900AB3027 /* Genova */,
+				54F80AA12B909D8B00AB3027 /* GenovaTests */,
+				54F80AAB2B909D8B00AB3027 /* GenovaUITests */,
+				54F80A892B909D8900AB3027 /* Products */,
+				C5AE8268F3CF572737ED3990 /* Pods */,
+				6EA0E2CD4125ED24F30A9408 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		54F80A892B909D8900AB3027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54F80A882B909D8900AB3027 /* Genova.app */,
+				54F80A9E2B909D8B00AB3027 /* GenovaTests.xctest */,
+				54F80AA82B909D8B00AB3027 /* GenovaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54F80A8A2B909D8900AB3027 /* Genova */ = {
+			isa = PBXGroup;
+			children = (
+				542218252B935599003BDAA4 /* Utility */,
+				542218242B935579003BDAA4 /* Controller */,
+				542218222B93551D003BDAA4 /* JSON_Data */,
+				542218212B9354FE003BDAA4 /* View */,
+				542218202B9354EC003BDAA4 /* Delegates */,
+				54F80A942B909D8B00AB3027 /* Assets.xcassets */,
+				54F80A992B909D8B00AB3027 /* Info.plist */,
+			);
+			path = Genova;
+			sourceTree = "<group>";
+		};
+		54F80AA12B909D8B00AB3027 /* GenovaTests */ = {
+			isa = PBXGroup;
+			children = (
+				54F80AA22B909D8B00AB3027 /* GenovaTests.swift */,
+			);
+			path = GenovaTests;
+			sourceTree = "<group>";
+		};
+		54F80AAB2B909D8B00AB3027 /* GenovaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54F80AAC2B909D8B00AB3027 /* GenovaUITests.swift */,
+				54F80AAE2B909D8B00AB3027 /* GenovaUITestsLaunchTests.swift */,
+			);
+			path = GenovaUITests;
+			sourceTree = "<group>";
+		};
+		6EA0E2CD4125ED24F30A9408 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45B9D3051083FD955B960B73 /* Pods_Genova.framework */,
+				D9617EFC649DDEE599F93188 /* Pods_Genova_GenovaUITests.framework */,
+				1416BCB434BCF3AFBFEB8A0A /* Pods_GenovaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5AE8268F3CF572737ED3990 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A551F1C5D8391A790347AC4 /* Pods-Genova.debug.xcconfig */,
+				00B275541A7A0A122FCA515C /* Pods-Genova.release.xcconfig */,
+				D436785DFE124E1FAD9D859A /* Pods-Genova-GenovaUITests.debug.xcconfig */,
+				8E688718E5052A900C83CF19 /* Pods-Genova-GenovaUITests.release.xcconfig */,
+				715043CD157E3BC981E603E2 /* Pods-GenovaTests.debug.xcconfig */,
+				EE4C2C3FA859D1F1010370DD /* Pods-GenovaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54F80A872B909D8900AB3027 /* Genova */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F80AB22B909D8B00AB3027 /* Build configuration list for PBXNativeTarget "Genova" */;
+			buildPhases = (
+				FBE9E7CA2E2FD8317FB1CDE2 /* [CP] Check Pods Manifest.lock */,
+				54F80A842B909D8900AB3027 /* Sources */,
+				54F80A852B909D8900AB3027 /* Frameworks */,
+				54F80A862B909D8900AB3027 /* Resources */,
+				94904C61BBDA29A44E9AF108 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Genova;
+			productName = Genova;
+			productReference = 54F80A882B909D8900AB3027 /* Genova.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54F80A9D2B909D8B00AB3027 /* GenovaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F80AB52B909D8B00AB3027 /* Build configuration list for PBXNativeTarget "GenovaTests" */;
+			buildPhases = (
+				672BAEB66529EC48B11833FB /* [CP] Check Pods Manifest.lock */,
+				54F80A9A2B909D8B00AB3027 /* Sources */,
+				54F80A9B2B909D8B00AB3027 /* Frameworks */,
+				54F80A9C2B909D8B00AB3027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54F80AA02B909D8B00AB3027 /* PBXTargetDependency */,
+			);
+			name = GenovaTests;
+			productName = GenovaTests;
+			productReference = 54F80A9E2B909D8B00AB3027 /* GenovaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54F80AA72B909D8B00AB3027 /* GenovaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F80AB82B909D8B00AB3027 /* Build configuration list for PBXNativeTarget "GenovaUITests" */;
+			buildPhases = (
+				E74908F2D9C28D0554D2A030 /* [CP] Check Pods Manifest.lock */,
+				54F80AA42B909D8B00AB3027 /* Sources */,
+				54F80AA52B909D8B00AB3027 /* Frameworks */,
+				54F80AA62B909D8B00AB3027 /* Resources */,
+				FD43F94603CF62CBA8903870 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54F80AAA2B909D8B00AB3027 /* PBXTargetDependency */,
+			);
+			name = GenovaUITests;
+			productName = GenovaUITests;
+			productReference = 54F80AA82B909D8B00AB3027 /* GenovaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54F80A802B909D8900AB3027 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					54F80A872B909D8900AB3027 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					54F80A9D2B909D8B00AB3027 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 54F80A872B909D8900AB3027;
+					};
+					54F80AA72B909D8B00AB3027 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 54F80A872B909D8900AB3027;
+					};
+				};
+			};
+			buildConfigurationList = 54F80A832B909D8900AB3027 /* Build configuration list for PBXProject "Genova" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54F80A7F2B909D8900AB3027;
+			productRefGroup = 54F80A892B909D8900AB3027 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54F80A872B909D8900AB3027 /* Genova */,
+				54F80A9D2B909D8B00AB3027 /* GenovaTests */,
+				54F80AA72B909D8B00AB3027 /* GenovaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54F80A862B909D8900AB3027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5430C4322B91020400161D4F /* SliderCell.xib in Resources */,
+				54F80A982B909D8B00AB3027 /* LaunchScreen.storyboard in Resources */,
+				5430C4382B91077A00161D4F /* CartTableViewCell.xib in Resources */,
+				54F80A952B909D8B00AB3027 /* Assets.xcassets in Resources */,
+				54F80A932B909D8900AB3027 /* Main.storyboard in Resources */,
+				54F80AC62B909FE100AB3027 /* DataModel.json in Resources */,
+				54F80AC22B909E9800AB3027 /* HomeCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F80A9C2B909D8B00AB3027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F80AA62B909D8B00AB3027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		672BAEB66529EC48B11833FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GenovaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94904C61BBDA29A44E9AF108 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Genova/Pods-Genova-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Genova/Pods-Genova-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Genova/Pods-Genova-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E74908F2D9C28D0554D2A030 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Genova-GenovaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBE9E7CA2E2FD8317FB1CDE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Genova-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD43F94603CF62CBA8903870 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Genova-GenovaUITests/Pods-Genova-GenovaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Genova-GenovaUITests/Pods-Genova-GenovaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Genova-GenovaUITests/Pods-Genova-GenovaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54F80A842B909D8900AB3027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B77A292B925D9900FAB877 /* AddressViewController.swift in Sources */,
+				54F80A902B909D8900AB3027 /* ViewController.swift in Sources */,
+				54F80A8C2B909D8900AB3027 /* AppDelegate.swift in Sources */,
+				54B6B5962B93182800DDA649 /* SuccessViewController.swift in Sources */,
+				5430C4342B91076800161D4F /* CartViewController.swift in Sources */,
+				5430C4262B91002E00161D4F /* DetailViewController.swift in Sources */,
+				542218292B9355EA003BDAA4 /* Model.swift in Sources */,
+				54F80A8E2B909D8900AB3027 /* SceneDelegate.swift in Sources */,
+				5430C4312B91020400161D4F /* SliderCell.swift in Sources */,
+				54F80AC12B909E9800AB3027 /* HomeCollectionViewCell.swift in Sources */,
+				54AA62BF2B92FD3500FB3BFB /* CheckoutViewController.swift in Sources */,
+				5430C4372B91077A00161D4F /* CartTableViewCell.swift in Sources */,
+				542218272B9355A7003BDAA4 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F80A9A2B909D8B00AB3027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F80AA32B909D8B00AB3027 /* GenovaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F80AA42B909D8B00AB3027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F80AAF2B909D8B00AB3027 /* GenovaUITestsLaunchTests.swift in Sources */,
+				54F80AAD2B909D8B00AB3027 /* GenovaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54F80AA02B909D8B00AB3027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54F80A872B909D8900AB3027 /* Genova */;
+			targetProxy = 54F80A9F2B909D8B00AB3027 /* PBXContainerItemProxy */;
+		};
+		54F80AAA2B909D8B00AB3027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54F80A872B909D8900AB3027 /* Genova */;
+			targetProxy = 54F80AA92B909D8B00AB3027 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54F80A912B909D8900AB3027 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54F80A922B909D8900AB3027 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54F80A962B909D8B00AB3027 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54F80A972B909D8B00AB3027 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54F80AB02B909D8B00AB3027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54F80AB12B909D8B00AB3027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54F80AB32B909D8B00AB3027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A551F1C5D8391A790347AC4 /* Pods-Genova.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Genova/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hkjh.Genova;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54F80AB42B909D8B00AB3027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B275541A7A0A122FCA515C /* Pods-Genova.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Genova/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hkjh.Genova;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54F80AB62B909D8B00AB3027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 715043CD157E3BC981E603E2 /* Pods-GenovaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hkjh.GenovaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Genova.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Genova";
+			};
+			name = Debug;
+		};
+		54F80AB72B909D8B00AB3027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4C2C3FA859D1F1010370DD /* Pods-GenovaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hkjh.GenovaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Genova.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Genova";
+			};
+			name = Release;
+		};
+		54F80AB92B909D8B00AB3027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D436785DFE124E1FAD9D859A /* Pods-Genova-GenovaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hkjh.GenovaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Genova;
+			};
+			name = Debug;
+		};
+		54F80ABA2B909D8B00AB3027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E688718E5052A900C83CF19 /* Pods-Genova-GenovaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hkjh.GenovaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Genova;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54F80A832B909D8900AB3027 /* Build configuration list for PBXProject "Genova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F80AB02B909D8B00AB3027 /* Debug */,
+				54F80AB12B909D8B00AB3027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F80AB22B909D8B00AB3027 /* Build configuration list for PBXNativeTarget "Genova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F80AB32B909D8B00AB3027 /* Debug */,
+				54F80AB42B909D8B00AB3027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F80AB52B909D8B00AB3027 /* Build configuration list for PBXNativeTarget "GenovaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F80AB62B909D8B00AB3027 /* Debug */,
+				54F80AB72B909D8B00AB3027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F80AB82B909D8B00AB3027 /* Build configuration list for PBXNativeTarget "GenovaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F80AB92B909D8B00AB3027 /* Debug */,
+				54F80ABA2B909D8B00AB3027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54F80A802B909D8900AB3027 /* Project object */;
+}

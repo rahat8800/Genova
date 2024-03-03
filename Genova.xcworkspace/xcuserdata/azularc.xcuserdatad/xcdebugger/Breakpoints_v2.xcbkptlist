@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "33D1D604-E0FE-4EFD-BED6-ADBA37DEE1F0"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F6ED42E-14DD-4B29-8928-9199ED32462B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Genova/HomeCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "bindData(data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1F6ED42E-14DD-4B29-8928-9199ED32462B - b56f81c8def2d0c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Genova.HomeCollectionViewCell.bindData(data: Genova.Product) -&gt; ()"
+                  moduleName = "Genova"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/azularc/Desktop/Genova/Genova/HomeCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "904">
+               </Location>
+               <Location
+                  uuid = "1F6ED42E-14DD-4B29-8928-9199ED32462B - b56f81c8def2d000"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Genova.HomeCollectionViewCell.bindData(data: Genova.Product) -&gt; ()"
+                  moduleName = "Genova"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/azularc/Desktop/Genova/Genova/HomeCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "876">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EFBE15DF-66DF-43C7-90C6-E1999E646B4C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Genova/CheckoutViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "collectionView(_:layout:sizeForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "037B865E-DC32-4F51-A517-0E9C1865B5B4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Genova/SuccessViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "popToViewControllerOfType(_:animated:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "037B865E-DC32-4F51-A517-0E9C1865B5B4 - 770864b3c9df9dec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UINavigationController.popToViewControllerOfType&lt;&#x3c4;_0_0 where &#x3c4;_0_0: __C.UIViewController&gt;(_: &#x3c4;_0_0.Type, animated: Swift.Bool) -&gt; ()"
+                  moduleName = "Genova"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/azularc/Desktop/Genova/Genova/SuccessViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "464">
+               </Location>
+               <Location
+                  uuid = "037B865E-DC32-4F51-A517-0E9C1865B5B4 - 770864b3c9df9dcd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UINavigationController.popToViewControllerOfType&lt;&#x3c4;_0_0 where &#x3c4;_0_0: __C.UIViewController&gt;(_: &#x3c4;_0_0.Type, animated: Swift.Bool) -&gt; ()"
+                  moduleName = "Genova"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/azularc/Desktop/Genova/Genova/SuccessViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63CEBA6A-0352-466A-AB65-3994C638576B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Genova/SuccessViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "popToViewControllerOfType(_:animated:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "63CEBA6A-0352-466A-AB65-3994C638576B - 770864b3c9df9d32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UINavigationController.popToViewControllerOfType&lt;&#x3c4;_0_0 where &#x3c4;_0_0: __C.UIViewController&gt;(_: &#x3c4;_0_0.Type, animated: Swift.Bool) -&gt; ()"
+                  moduleName = "Genova"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/azularc/Desktop/Genova/Genova/SuccessViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "680">
+               </Location>
+               <Location
+                  uuid = "63CEBA6A-0352-466A-AB65-3994C638576B - a87bded1f354c6fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 1 of __C.UINavigationController.popToViewControllerOfType&lt;&#x3c4;_0_0 where &#x3c4;_0_0: __C.UIViewController&gt;(_: &#x3c4;_0_0.Type, animated: Swift.Bool) -&gt; ()"
+                  moduleName = "Genova"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/azularc/Desktop/Genova/Genova/SuccessViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "63CEBA6A-0352-466A-AB65-3994C638576B - 770864b3c9df9d32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UINavigationController.popToViewControllerOfType&lt;&#x3c4;_0_0 where &#x3c4;_0_0: __C.UIViewController&gt;(_: &#x3c4;_0_0.Type, animated: Swift.Bool) -&gt; ()"
+                  moduleName = "Genova"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/azularc/Desktop/Genova/Genova/SuccessViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88D1B295-65C2-4BD3-A751-9768BCB4B972"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Genova/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "550907EB-EAC0-4F5A-9B96-D687941CF6A9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Genova/Controller/AddressViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "btnConfirmOrderTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D66A6F92-31DA-4FD8-8204-D71A951AE8D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Genova/Controller/AddressViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
+            landmarkName = "validateTextFields()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D66A6F92-31DA-4FD8-8204-D71A951AE8D1 - 56e9264f4914aa44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Genova.AddressViewController.validateTextFields() -&gt; Swift.Bool"
+                  moduleName = "Genova"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/azularc/Desktop/Genova/Genova/Controller/AddressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "652">
+               </Location>
+               <Location
+                  uuid = "D66A6F92-31DA-4FD8-8204-D71A951AE8D1 - 56e9264f4914aa65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Genova.AddressViewController.validateTextFields() -&gt; Swift.Bool"
+                  moduleName = "Genova"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/azularc/Desktop/Genova/Genova/Controller/AddressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "181"
+                  endingLineNumber = "181"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "D66A6F92-31DA-4FD8-8204-D71A951AE8D1 - 56e9264f4914aa65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Genova.AddressViewController.validateTextFields() -&gt; Swift.Bool"
+                  moduleName = "Genova"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/azularc/Desktop/Genova/Genova/Controller/AddressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "181"
+                  endingLineNumber = "181"
+                  offsetFromSymbolStart = "540">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
