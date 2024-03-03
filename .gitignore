@@ -8,5 +8,8 @@ xcuserdata
 .swiftpm
 DerivedData/
 
+# Pods
+Pods/
+
 # macOS
 .DS_Store
